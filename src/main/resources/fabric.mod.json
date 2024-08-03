@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lunkun",
+	"version": "${version}",
+	"name": "LunKun",
+	"description": "伦堃和他的全家（bushi",
+	"authors": [
+		"haitailook\nlunkun\nBTSsama\nSacredym\nhan_ya"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lunkun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.tlgjx.lunkun.LunKun"
+		],
+		"Client": [
+			"cn.tlgjx.lunkun.LunKunClient"
+		],
+		"fabric-datagen": [
+			"cn.tlgjx.lunkun.LunKunDataGenerator"
+		]
+	},
+	"mixins": [
+		"lunkun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
