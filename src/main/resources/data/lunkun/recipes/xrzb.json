@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "lunkun:lunkun_block"
+    },
+    "*": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "pattern": [
+    "#",
+    "*",
+    "*"
+  ],
+  "result": {
+    "item": "lunkun:xrzb"
+  },
+  "show_notification": true
+}
