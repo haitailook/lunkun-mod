@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "lunkun:lunkun_ingot"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "lunkun:lunkun_debris",
+    "count": 4
+  },
+  "show_notification": true
+}

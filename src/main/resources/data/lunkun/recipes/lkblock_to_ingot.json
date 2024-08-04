@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "lunkun:lunkun_block"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "lunkun:lunkun_ingot",
+    "count": 9
+  },
+  "show_notification": true
+}
