@@ -1,5 +1,6 @@
 package cn.tlgjx.lunkun;
 
+import cn.tlgjx.lunkun.block.ModBlocks;
 import cn.tlgjx.lunkun.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class LunKun implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello haitailook !");
 		Moditems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
