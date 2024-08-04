@@ -5,11 +5,15 @@
 	"name": "LunKun",
 	"description": "伦堃和他的全家（bushi",
 	"authors": [
-		"haitailook\nlunkun\nBTSsama\nSacredym\nhan_ya"
+		"haitailook",
+		"lunkun",
+		"cwBTS",
+		"Sacredym",
+		"han_ya"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/haitailook/lunkun-template-1.20.1/tree/master"
 	},
 	"license": "MIT",
 	"icon": "assets/lunkun/icon.png",
