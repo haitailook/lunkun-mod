@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "lunkun:angry_lunkun_block"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "item": "lunkun:angry_lunkun_ingot",
+    "count": 9
+  },
+  "show_notification": true
+}

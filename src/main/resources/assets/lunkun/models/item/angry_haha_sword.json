@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "lunkun:item/xrzb"
+    "layer0": "lunkun:item/angry_haha_sword"
   }
 }

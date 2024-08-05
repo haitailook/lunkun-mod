@@ -12,7 +12,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block LUNKUN_BLOCK=registerBlocks("lunkun_block",new Block(FabricBlockSettings.copyOf(Blocks.MAGMA_BLOCK)));
+    public static final Block LUNKUN_BLOCK=registerBlocks("lunkun_block",new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block ANGRY_LUNKUN_BLOCK=registerBlocks("angry_lunkun_block",new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
     private static Block registerBlocks(String name,Block block){
         registerBlocksItem(name,block);
         return Registry.register(Registries.BLOCK,new Identifier(LunKun.MOD_ID,name),block);

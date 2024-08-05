@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "lunkun:lunkun_ingot"
+    },
+    "*": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "pattern": [
+    "##",
+    " *",
+    " *"
+  ],
+  "result": {
+    "item": "lunkun:haha_hoe"
+  },
+  "show_notification": true
+}
