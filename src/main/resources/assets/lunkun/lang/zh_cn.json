@@ -2,11 +2,25 @@
   "item.lunkun.lunkun_debris": "伦堃碎片",
   "item.lunkun.lunkun_ingot": "伦堃锭",
   "block.lunkun.lunkun_block": "伦堃块",
+
+  "item.lunkun.angry_lunkun_debris": "红温伦堃碎片",
+  "item.lunkun.angry_lunkun_ingot": "红温伦堃锭",
+  "block.lunkun.angry_lunkun_block": "红温伦堃块",
+
   "item.lunkun.haha_sword": "🙂剑",
   "item.lunkun.haha_pickaxe": "🙂镐",
   "item.lunkun.haha_axe": "🙂斧",
   "item.lunkun.haha_shove": "🙂锹",
   "item.lunkun.haha_hoe": "🙂锄",
-  "item.lunkun.xrzb": "心如止棒",
+
+  "item.lunkun.angry_haha_sword": "§l§c🙂§r剑",
+  "item.lunkun.angry_haha_pickaxe": "§l§c🙂§r镐",
+  "item.lunkun.angry_haha_axe": "§l§c🙂§r斧",
+  "item.lunkun.angry_haha_shove": "§l§c🙂§r锹",
+  "item.lunkun.angry_haha_hoe": "§l§c🙂§r锄",
+
+  "item.lunkun.xrzb": "§l§kooo§r§l心如止棒§kooo",
+  "item.lunkun.angry_xrzb": "§4§l§kooo§r§l心如止棒§4§kooo",
+
   "itemGroup.lunkun_group": "伦堃"
 }

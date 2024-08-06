@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lunkun:lunkun_debris"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/fox"
+}

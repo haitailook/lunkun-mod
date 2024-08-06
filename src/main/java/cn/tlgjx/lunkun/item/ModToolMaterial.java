@@ -6,7 +6,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    LUNKUN_INGOT(5,1145,5f,5f,40,()->Ingredient.ofItems(Moditems.LUNKUN_INGOT));
+    LUNKUN_INGOT(5,1145,5f,5f,40,()->Ingredient.ofItems(Moditems.LUNKUN_INGOT)),
+    ANGRY_LUNKUN_INGOT(5, 2500, 10f, 5f, 40, () -> Ingredient.ofItems(Moditems.ANGRY_LUNKUN_INGOT));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

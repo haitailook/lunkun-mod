@@ -3,16 +3,12 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:redstone"
-    },
-    "*": {
-      "item": "lunkun:lunkun_ingot"
+      "item": "lunkun:angry_lunkun_debris"
     }
   },
   "pattern": [
-    "###",
-    "#*#",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
     "item": "lunkun:angry_lunkun_ingot"

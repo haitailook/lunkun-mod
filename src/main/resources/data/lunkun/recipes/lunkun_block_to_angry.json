@@ -4,20 +4,17 @@
     "#": {
       "item": "lunkun:lunkun_block"
     },
-    "A": {
-      "item": "minecraft:nether_star"
-    },
     "*": {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:magma_block"
     }
   },
   "pattern": [
-    "#",
-    "A",
-    "*"
+    "###",
+    "#*#",
+    "###"
   ],
   "result": {
-    "item": "lunkun:xrzb"
+    "item": "lunkun:angry_lunkun_block"
   },
   "show_notification": true
 }

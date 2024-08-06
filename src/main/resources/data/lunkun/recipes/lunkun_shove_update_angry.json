@@ -4,10 +4,10 @@
     "item": "lunkun:angry_lunkun_ingot"
   },
   "base": {
-    "item": "lunkun:haha_axe"
+    "item": "lunkun:haha_shove"
   },
   "result": {
-    "item": "lunkun:angry_haha_axe"
+    "item": "lunkun:angry_haha_shove"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

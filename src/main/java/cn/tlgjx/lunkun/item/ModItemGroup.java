@@ -12,13 +12,18 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    private static final ItemGroup LUNKUN_GROUP= Registry.register(Registries.ITEM_GROUP,new Identifier(LunKun.MOD_ID,"lunkun_group"),FabricItemGroup.builder().displayName(Text.translatable("itemGroup.lunkun_group")).icon(()->new ItemStack(Moditems.XRZB)).entries((displayContext, entries) -> {
+    private static final ItemGroup LUNKUN_GROUP=Registry.register(Registries.ITEM_GROUP,new Identifier(LunKun.MOD_ID,"lunkun_group"),FabricItemGroup.builder().displayName(Text.translatable("itemGroup.lunkun_group")).icon(()->new ItemStack(Moditems.XRZB)).entries((displayContext, entries) -> {
         entries.add(Moditems.LUNKUN_DEBRIS);
         entries.add(Moditems.LUNKUN_INGOT);
+        entries.add(ModBlocks.LUNKUN_BLOCK);
+
+        entries.add(Moditems.ANGRY_LUNKUN_DEBRIS);
         entries.add(Moditems.ANGRY_LUNKUN_INGOT);
         entries.add(ModBlocks.ANGRY_LUNKUN_BLOCK);
-        entries.add(ModBlocks.LUNKUN_BLOCK);
+
         entries.add(Moditems.XRZB);
+        entries.add(Moditems.ANGRY_XRZB);
+
         entries.add(Moditems.HAHA_SWORD);
         entries.add(Moditems.HAHA_AXE);
         entries.add(Moditems.HAHA_PICKAXE);
