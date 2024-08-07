@@ -30,6 +30,19 @@ public class Moditems {
     public static final Item ANGRY_HAHA_HOE=registerModItems("angry_haha_hoe",new HoeItem(ModToolMaterial.ANGRY_LUNKUN_INGOT,-4,0,new FabricItemSettings()));
     public static final Item ANGRY_HAHA_SWORD=registerModItems("angry_haha_sword",new SwordItem(ModToolMaterial.ANGRY_LUNKUN_INGOT,4,(float) -2.4,new FabricItemSettings()));
 
+
+    public static final Item HHL_HELMET=registerModItems("hhl_helmet",new ArmorItem(ModArmorMaterial.LUNKUN_INGOT,ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item HHL_CHESTPLATE=registerModItems("hhl_chestplate",new ArmorItem(ModArmorMaterial.LUNKUN_INGOT,ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item HHL_LEGGINGS=registerModItems("hhl_leggings",new ArmorItem(ModArmorMaterial.LUNKUN_INGOT,ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item HHL_BOOTS=registerModItems("hhl_boots",new ArmorItem(ModArmorMaterial.LUNKUN_INGOT,ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
+    public static final Item ANGRY_HHL_HELMET=registerModItems("angry_hhl_helmet",new ArmorItem(ModArmorMaterial.ANGRY_LUNKUN_INGOT,ArmorItem.Type.HELMET,new FabricItemSettings()));
+    public static final Item ANGRY_HHL_CHESTPLATE=registerModItems("angry_hhl_chestplate",new ArmorItem(ModArmorMaterial.ANGRY_LUNKUN_INGOT,ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+    public static final Item ANGRY_HHL_LEGGINGS=registerModItems("angry_hhl_leggings",new ArmorItem(ModArmorMaterial.ANGRY_LUNKUN_INGOT,ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+    public static final Item ANGRY_HHL_BOOTS=registerModItems("angry_hhl_boots",new ArmorItem(ModArmorMaterial.ANGRY_LUNKUN_INGOT,ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
+
+
     private static Item registerModItems(String name,Item item){
         return Registry.register(Registries.ITEM,new Identifier(LunKun.MOD_ID,name),item);
     }

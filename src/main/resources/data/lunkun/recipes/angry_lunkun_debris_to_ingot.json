@@ -1,14 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "lunkun:angry_lunkun_debris"
+    },
+    "*": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " # ",
+    "#*#",
+    " # "
   ],
   "result": {
     "item": "lunkun:angry_lunkun_ingot"

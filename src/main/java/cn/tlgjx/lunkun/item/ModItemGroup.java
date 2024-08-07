@@ -35,6 +35,18 @@ public class ModItemGroup {
         entries.add(Moditems.ANGRY_HAHA_PICKAXE);
         entries.add(Moditems.ANGRY_HAHA_SHOVE);
         entries.add(Moditems.ANGRY_HAHA_HOE);
+
+        entries.add(Moditems.HHL_HELMET);
+        entries.add(Moditems.HHL_CHESTPLATE);
+        entries.add(Moditems.HHL_LEGGINGS);
+        entries.add(Moditems.HHL_BOOTS);
+
+        entries.add(Moditems.ANGRY_HHL_HELMET);
+        entries.add(Moditems.ANGRY_HHL_CHESTPLATE);
+        entries.add(Moditems.ANGRY_HHL_LEGGINGS);
+        entries.add(Moditems.ANGRY_HHL_BOOTS);
+
+
     }).build());
     public static void registerModItemGroup() {
     }

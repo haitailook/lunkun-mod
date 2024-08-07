@@ -4,14 +4,11 @@
   "key": {
     "#": {
       "item": "lunkun:angry_lunkun_ingot"
-    },
-    "*": {
-      "item": "minecraft:blaze_rod"
     }
   },
   "pattern": [
     "###",
-    "#*#",
+    "###",
     "###"
   ],
   "result": {
